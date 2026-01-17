@@ -8,10 +8,22 @@
 </head>
 
 <body>
-  <div class="container">
 
-    <!-- HEADER -->
-    <header>
+  <!-- ===== NAV HEADER ===== -->
+  <nav class="nav-header">
+    <a href="#top">Home</a>
+    <a href="#persoonlijk">Profiel</a>
+    <a href="#ervaring">Ervaring</a>
+    <a href="#opleiding">Opleiding</a>
+    <a href="#talen">Talen</a>
+    <a href="#hobbies">Hobby’s</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="top">
+
+    <!-- ===== HEADER (BLIJFT ZOALS HET WAS) ===== -->
+    <header id="contact">
       <div class="photo-wrapper">
         <img src="assets/foto.png" alt="Foto van Pedro Martinez">
       </div>
@@ -37,30 +49,16 @@
       </div>
     </header>
 
-    <!-- PERSOONLIJKE GEGEVENS -->
-    <section class="card">
-      <h2>Persoonlijke Gegevens</h2>
+    <!-- PERSOONLIJK -->
+    <section class="card" id="persoonlijk">
+      <h2>Persoonlijk Profiel</h2>
       <p>
         Geboortedatum: <span class="highlight">01-10-1975</span><br>
-        Woonplaats: <span class="highlight">Moerdijk, Nederland</span><br>
-        Rijbewijs: <span class="highlight">Categorie B</span><br>
-        Beschikbaarheid: <span class="highlight">Direct beschikbaar</span>
-      </p>
-    </section>
+        Woonplaats: <span class="highlight">Moerdijk, Nederland</span><br><br>
 
-    <!-- MOTIVATIE -->
-    <section class="card">
-      <h2>Persoonlijke Motivatie</h2>
-      <p>
-        Na het zorgvuldig doornemen van uw vacature en organisatie stel ik mij graag
-        kandidaat met de intentie om mij langdurig aan te sluiten bij uw bedrijf.
-        Ik ben een <span class="highlight">hardwerkende</span>,
-        <span class="highlight">betrouwbare</span> en
-        <span class="highlight">praktisch ingestelde</span> medewerker.
-        <br><br>
-        Ik heb ruime ervaring met installaties, loodgieterswerk, verwarming,
-        renovaties en veel rijden naar verschillende werklocaties.
-        Ik werk veilig, gestructureerd en ben altijd bereid om bij te leren.
+        Ik ben een hardwerkende, betrouwbare en praktisch ingestelde professional.
+        Ik heb veel ervaring met installaties, loodgieterswerk, verwarming,
+        renovaties en werken op verschillende locaties.
       </p>
     </section>
 
@@ -68,95 +66,62 @@
     <section class="card">
       <h2>Vaardigheden</h2>
       <ul>
-        <li>Installatie en onderhoud van technische systemen</li>
-        <li>Loodgieterswerk, verwarming en gasinstallaties</li>
-        <li>Renovaties en herstellingen</li>
-        <li>Machinebediening en technisch onderhoud</li>
-        <li>Veel ervaring met rijden en werken op locatie</li>
-        <li>Zelfstandig én in teamverband</li>
+        <li>Installaties, loodgieterswerk en verwarming</li>
+        <li>Gasinstallaties en renovaties</li>
+        <li>Machinebediening en onderhoud</li>
+        <li>Veel rijden en werken op locatie</li>
+        <li>Zelfstandig en teamgericht</li>
       </ul>
     </section>
 
     <!-- ERVARING -->
-    <section class="card">
+    <section class="card" id="ervaring">
       <h2>Werkervaring</h2>
 
       <div class="experience-item">
         <h3>Monteur – Vrakking Tires</h3>
         <span>2025 • Etten-Leur</span>
-        <ul>
-          <li>Bandenservice, montage en reparaties</li>
-          <li>Lassen en metaalbewerking</li>
-          <li>Dagelijks rijden naar klanten</li>
-        </ul>
+        <p>Bandenservice, lassen, metaalbewerking en dagelijks rijden.</p>
       </div>
 
       <div class="experience-item">
         <h3>Machine Operator – KS Profile</h3>
         <span>2025 • Moerdijk</span>
-        <ul>
-          <li>Productielijnen bedienen en omstellen</li>
-          <li>Installaties en technisch onderhoud</li>
-          <li>Storingen oplossen</li>
-        </ul>
-      </div>
-
-      <div class="experience-item">
-        <h3>Machine Operator – Bato Plastics</h3>
-        <span>2024 • Zevenbergen</span>
-        <ul>
-          <li>Onderhoud en reiniging van installaties</li>
-          <li>Werken met silo’s en productiemateriaal</li>
-        </ul>
+        <p>Productielijnen, installaties, onderhoud en storingen.</p>
       </div>
 
       <div class="experience-item">
         <h3>Onderhoudstechnicus – Tagesa</h3>
-        <span>2021 – 2023 • Madrid</span>
-        <ul>
-          <li>Loodgieters- en verwarmingsinstallaties</li>
-          <li>Renovaties en aanpassingen</li>
-          <li>Veel zelfstandig werk en rijden</li>
-        </ul>
+        <span>2021-2023 • Madrid</span>
+        <p>Loodgieterswerk, verwarming, renovaties en veel zelfstandig werk.</p>
       </div>
 
       <div class="experience-item">
-        <h3>Crew Boss / Stagehand – Art Logic</h3>
-        <span>2008 – 2019 • Antwerpen</span>
-        <ul>
-          <li>Aansturen van technische crews</li>
-          <li>Internationale tournees door Europa</li>
-          <li>Producties: <span class="highlight">Peter Pan</span>,
-              <span class="highlight">Holiday On Ice</span></li>
-        </ul>
-      </div>
-
-      <div class="experience-item">
-        <h3>Loodgieter & Verwarmingstechnicus – Carpirumi</h3>
-        <span>1995 – 2007 • Madrid</span>
-        <ul>
-          <li>Loodgieterswerk en verwarming</li>
-          <li>Gasinstallaties en renovaties</li>
-          <li>Zelfstandig werken bij klanten</li>
-        </ul>
+        <h3>Crew Boss – Art Logic</h3>
+        <span>2008-2019 • Antwerpen</span>
+        <p>
+          Aansturen van crews en internationale tournees zoals
+          <span class="highlight">Peter Pan</span> en
+          <span class="highlight">Holiday On Ice</span>.
+        </p>
       </div>
     </section>
 
-    <!-- EDUCATIE -->
-    <section class="card">
-      <h2>Opleiding & Educatie</h2>
+    <!-- OPLEIDING -->
+    <section class="card" id="opleiding">
+      <h2>Opleiding & Cursussen</h2>
       <ul>
         <li>Basisonderwijs – afgerond</li>
         <li>Secundair onderwijs – afgerond</li>
-        <li>Universitaire opleiding – afgerond met <span class="highlight">Notable</span></li>
+        <li>Universitaire opleiding – <span class="highlight">Notable</span></li>
         <li>Cursussen informatica</li>
-        <li>Cursussen loodgieterswerk, verwarming en gasinstallaties</li>
-        <li>Altijd bezig met leren, werken en ontwikkelen</li>
+        <li>Cursussen loodgieterswerk, verwarming en gas</li>
+        <li>Altijd bezig met leren en werken</li>
       </ul>
     </section>
 
     <!-- TALEN -->
-    <section class="card">
+    <section class="card" id="talen">
       <h2>Talen</h2>
       <ul>
         <li>Spaans – moedertaal</li>
@@ -167,10 +132,10 @@
     </section>
 
     <!-- HOBBIES -->
-    <section class="card">
-      <h2>Interesses & Hobby’s</h2>
+    <section class="card" id="hobbies">
+      <h2>Hobby’s & Interesses</h2>
       <ul>
-        <li>Informatica & software development</li>
+        <li>Informatica & development</li>
         <li>Barbecues met vrienden</li>
         <li>Voetbal – Real Madrid</li>
       </ul>
