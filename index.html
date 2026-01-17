@@ -9,192 +9,136 @@
 
 <body>
 
-  <!-- ===== NAV HEADER ===== -->
-  <nav class="nav-header">
-    <div class="nav-container">
-      <div class="nav-left">
-        <div class="nav-avatar">
-          <div class="nav-avatar-circle">P</div>
-        </div>
-        <div class="nav-title">
-          <span class="nav-name">Pedro Martinez</span>
-          <span class="nav-role">Onderhoudstechnicus • Installatietechniek • Machine Operator</span>
-        </div>
-      </div>
-
-      <div class="nav-right">
-        <a href="#top">Home</a>
-        <a href="#persoonlijk">Profiel</a>
-        <a href="#ervaring">Ervaring</a>
-        <a href="#opleiding">Opleiding</a>
-        <a href="#talen">Talen</a>
-        <a href="#hobbies">Hobby’s</a>
-        <a href="#contact">Contact</a>
-
-        <button class="theme-toggle" id="themeToggle" aria-label="Thema wisselen">
-          <span class="theme-icon" id="themeIcon">🌙</span>
-        </button>
-      </div>
+<!-- ===== NAV ===== -->
+<nav class="nav-header">
+  <div class="nav-container">
+    <span class="nav-name">Pedro Martinez</span>
+    <div class="nav-links">
+      <a href="#top">Home</a>
+      <a href="#persoonlijk">Profiel</a>
+      <a href="#ervaring">Ervaring</a>
+      <a href="#opleiding">Opleiding</a>
+      <a href="#talen">Talen</a>
+      <a href="#hobbies">Hobby’s</a>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <div class="container" id="top">
+<div class="container" id="top">
 
-    <!-- ===== HEADER ===== -->
-    <header id="contact" class="header-card">
-      <div class="photo-wrapper">
-        <img src="assets/foto.png" alt="Foto van Pedro Martinez">
-      </div>
-
-      <h1>Pedro <span>Martinez</span></h1>
-      <p class="subtitle">
-        Onderhoudstechnicus • Installatietechniek • Machine Operator
-      </p>
-
-      <div class="contact-buttons">
-        <a href="https://wa.me/34684766129" target="_blank" class="contact-btn">
-          <svg viewBox="0 0 32 32" class="icon">
-            <path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 4.9 2.2 6.9L4 29l7.3-2.1C12.9 27.6 14.4 28 16 28c6.6 0 12-5.4 12-12S22.6 3 16 3zm0 2c5.5 0 10 4.5 10 10s-4.5 10-10 10c-1.5 0-3-.4-4.3-1l-.3-.1-4.3 1.3 1.4-4.1-.2-.3C7.4 19.3 7 17.7 7 15 7 9.5 10.5 5 16 5zm-3.1 4c-.3 0-.8.1-1.2.6-.4.4-1.2 1.1-1.2 2.6s1.2 3 1.4 3.2c.2.3 2.4 3.8 5.8 5.2 2.9 1.1 3.5.9 4.1.8.6-.1 2-.8 2.3-1.7.3-.9.3-1.6.2-1.7-.1-.1-.3-.2-.6-.4-.3-.2-2-1-2.3-1.1-.3-.1-.5-.2-.7.2-.2.4-.8 1.1-.9 1.2-.2.2-.3.3-.7.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.3-2.1-2.7-.2-.4 0-.6.1-.8.1-.2.4-.5.5-.7.2-.2.3-.4.4-.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.2-.5-.5-.5-.7-.5z"/>
-          </svg>
-          <span>WhatsApp</span>
-        </a>
-        <a href="tel:+34684766129" class="contact-btn">
-          <svg viewBox="0 0 32 32" class="icon">
-            <path d="M7 4c-.6 0-1 .4-1 1 0 13 9 22 19 22 .6 0 1-.4 1-1v-4c0-.5-.4-.9-.9-1-2.1-.2-3.8-.7-5.3-1.5-.4-.2-.9-.1-1.2.2l-2.4 2.4c-2.8-1.5-5-3.7-6.5-6.5l2.4-2.4c.3-.3.4-.8.2-1.2-.8-1.5-1.3-3.2-1.5-5.3 0-.5-.5-.9-1-.9H7z"/>
-          </svg>
-          <span>Bellen</span>
-        </a>
-        <a href="mailto:pmnl777@icloud.com" class="contact-btn">
-          <svg viewBox="0 0 32 32" class="icon">
-            <path d="M4 7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h24c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2H4zm0 2h24v.2L16 18 4 9.2V9zm0 3.3l11.5 8.3c.3.2.7.2 1 0L28 12.3V23H4V12.3z"/>
-          </svg>
-          <span>E-mail</span>
-        </a>
-      </div>
-    </header>
-
-    <!-- ===== PERSOONLIJK ===== -->
-    <section class="card" id="persoonlijk">
-      <h2>Persoonlijk Profiel</h2>
-      <p>
-        Geboortedatum: <span class="highlight">01-10-1975</span><br>
-        Woonplaats: <span class="highlight">Moerdijk, Nederland</span><br><br>
-
-        Ik ben een hardwerkende, betrouwbare en praktisch ingestelde professional.
-        Ik heb veel ervaring met installaties, loodgieterswerk, verwarming,
-        renovaties en werken op verschillende locaties.
-      </p>
-    </section>
-
-    <!-- ===== VAARDIGHEDEN ===== -->
-    <section class="card">
-      <h2>Vaardigheden</h2>
-      <ul class="skills-list">
-        <li>Installaties, loodgieterswerk en verwarming</li>
-        <li>Gasinstallaties en renovaties</li>
-        <li>Machinebediening en onderhoud</li>
-        <li>Veel rijden en werken op locatie</li>
-        <li>Zelfstandig en teamgericht</li>
-      </ul>
-    </section>
-
-    <!-- ===== ERVARING ===== -->
-    <section class="card" id="ervaring">
-      <h2>Werkervaring</h2>
-
-      <div class="experience-item">
-        <h3>Monteur – Vrakking Tires</h3>
-        <span class="date">2025 • Etten-Leur</span>
-        <p>Bandenservice, lassen, metaalbewerking en dagelijks rijden.</p>
-      </div>
-
-      <div class="experience-item">
-        <h3>Machine Operator – KS Profile</h3>
-        <span class="date">2025 • Moerdijk</span>
-        <p>Productielijnen, installaties, onderhoud en storingen.</p>
-      </div>
-
-      <div class="experience-item">
-        <h3>Onderhoudstechnicus – Tagesa</h3>
-        <span class="date">2021-2023 • Madrid</span>
-        <p>Loodgieterswerk, verwarming, renovaties en veel zelfstandig werk.</p>
-      </div>
-
-      <div class="experience-item">
-        <h3>Crew Boss – Art Logic</h3>
-        <span class="date">2008-2019 • Antwerpen</span>
-        <p>
-          Aansturen van crews en internationale tournees zoals
-          <span class="highlight">Peter Pan</span> en
-          <span class="highlight">Holiday On Ice</span>.
-        </p>
-      </div>
-    </section>
-
-    <!-- ===== OPLEIDING ===== -->
-    <section class="card" id="opleiding">
-      <h2>Opleiding & Cursussen</h2>
-      <ul>
-        <li>Basisonderwijs – afgerond</li>
-        <li>Secundair onderwijs – afgerond</li>
-        <li>Universitaire opleiding – <span class="highlight">Notable</span></li>
-        <li>Cursussen informatica</li>
-        <li>Cursussen loodgieterswerk, verwarming en gas</li>
-        <li>Altijd bezig met leren en werken</li>
-      </ul>
-    </section>
-
-    <!-- ===== TALEN ===== -->
-    <section class="card" id="talen">
-      <h2>Talen</h2>
-      <ul>
-        <li>Spaans – moedertaal</li>
-        <li>Engels – vloeiend</li>
-        <li>Nederlands – goed</li>
-        <li>Italiaans – basis</li>
-      </ul>
-    </section>
-
-    <!-- ===== HOBBIES ===== -->
-    <section class="card" id="hobbies">
-      <h2>Hobby’s & Interesses</h2>
-      <ul>
-        <li>Informatica & development</li>
-        <li>Barbecues met vrienden</li>
-        <li>Voetbal – Real Madrid</li>
-      </ul>
-    </section>
-
-    <footer>
-      <p>Pedro Martinez • Moerdijk • Nederland</p>
-    </footer>
-
+<!-- ===== HEADER ===== -->
+<header class="header-card">
+  <div class="photo-wrapper">
+    <img src="assets/foto.png" alt="Foto Pedro Martinez">
   </div>
 
-  <script>
-    // Dark mode toggle con preferencia guardada
-    const themeToggle = document.getElementById('themeToggle');
-    const themeIcon = document.getElementById('themeIcon');
+  <h1>Pedro <span>Martinez</span></h1>
+  <p class="subtitle">
+    Onderhoudstechnicus • Installatietechniek • Machine Operator
+  </p>
 
-    function setTheme(mode) {
-      document.documentElement.setAttribute('data-theme', mode);
-      localStorage.setItem('theme', mode);
-      themeIcon.textContent = mode === 'dark' ? '☀️' : '🌙';
-    }
+  <div class="contact-buttons">
+    <a href="https://wa.me/34684766129" class="contact-btn">WhatsApp</a>
+    <a href="tel:+34684766129" class="contact-btn">Bellen</a>
+    <a href="mailto:pmnl777@icloud.com" class="contact-btn">E-mail</a>
+    <a href="assets/cv.pdf" class="download-btn" download>⬇ Download CV (PDF)</a>
+  </div>
+</header>
 
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      setTheme(savedTheme);
-    } else {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setTheme(prefersDark ? 'dark' : 'light');
-    }
+<!-- ===== PROFIEL ===== -->
+<section class="card" id="persoonlijk">
+  <h2>Persoonlijk Profiel</h2>
+  <p>
+    Geboren op <span class="highlight">01-10-1975</span><br>
+    Woonachtig in <span class="highlight">Moerdijk, Nederland</span><br><br>
+    Hardwerkende, betrouwbare en praktisch ingestelde professional met ruime ervaring
+    in installaties, loodgieterswerk, verwarming, renovaties en technisch onderhoud.
+  </p>
+</section>
 
-    themeToggle.addEventListener('click', () => {
-      const current = document.documentElement.getAttribute('data-theme');
-      setTheme(current === 'dark' ? 'light' : 'dark');
-    });
-  </script>
+<!-- ===== VAARDIGHEDEN ===== -->
+<section class="card">
+  <h2>Vaardigheden</h2>
+  <ul class="center-list">
+    <li>Installatie- en loodgieterswerk</li>
+    <li>Gas, verwarming en renovaties</li>
+    <li>Machinebediening en onderhoud</li>
+    <li>Veel rijden en werken op locatie</li>
+    <li>Teamwerk en zelfstandigheid</li>
+  </ul>
+</section>
 
+<!-- ===== ERVARING ===== -->
+<section class="card" id="ervaring">
+  <h2>Werkervaring</h2>
+
+  <div class="experience-item">
+    <h3>Monteur – Vrakking Tires</h3>
+    <span>2025 • Etten-Leur</span>
+    <p>Bandenservice, lassen, metaalbewerking en dagelijks rijden.</p>
+  </div>
+
+  <div class="experience-item">
+    <h3>Machine Operator – KS Profile</h3>
+    <span>2025 • Moerdijk</span>
+    <p>Productielijnen, installaties, onderhoud en storingen.</p>
+  </div>
+
+  <div class="experience-item">
+    <h3>Onderhoudstechnicus – Tagesa</h3>
+    <span>2021–2023 • Madrid</span>
+    <p>Loodgieterswerk, verwarming, renovaties en zelfstandig werken.</p>
+  </div>
+
+  <div class="experience-item">
+    <h3>Crew Boss – Art Logic</h3>
+    <span>2008–2019 • Antwerpen</span>
+    <p>
+      Aansturen van crews en deelname aan internationale tours zoals
+      <span class="highlight">Peter Pan</span> en
+      <span class="highlight">Holiday On Ice</span>.
+    </p>
+  </div>
+</section>
+
+<!-- ===== OPLEIDING ===== -->
+<section class="card" id="opleiding">
+  <h2>Opleiding & Cursussen</h2>
+  <ul class="center-list">
+    <li>Basisonderwijs – afgerond</li>
+    <li>Secundair onderwijs – afgerond</li>
+    <li>Universitaire opleiding – gemiddelde <strong>Notable</strong></li>
+    <li>Informatica cursussen</li>
+    <li>Loodgieterswerk, verwarming en gasinstallaties</li>
+    <li>Altijd lerend en werkend</li>
+  </ul>
+</section>
+
+<!-- ===== TALEN ===== -->
+<section class="card" id="talen">
+  <h2>Talen</h2>
+  <ul class="center-list">
+    <li>Spaans – moedertaal</li>
+    <li>Engels – vloeiend</li>
+    <li>Nederlands – goed</li>
+    <li>Italiaans – basis</li>
+  </ul>
+</section>
+
+<!-- ===== HOBBIES ===== -->
+<section class="card" id="hobbies">
+  <h2>Hobby’s</h2>
+  <ul class="center-list">
+    <li>Informatica & development</li>
+    <li>Barbecues met vrienden</li>
+    <li>Voetbal – Real Madrid</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© Pedro Martinez • Moerdijk • Nederland</p>
+</footer>
+
+</div>
 </body>
 </html>
